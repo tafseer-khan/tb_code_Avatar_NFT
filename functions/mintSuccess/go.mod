@@ -2,15 +2,9 @@ module function
 
 go 1.19
 
-require (
-	github.com/tafseer-khan/tb_utils v0.0.1
-	github.com/taubyte/go-sdk v0.3.8-0.20230523154623-2a61743fccec
-)
+require github.com/taubyte/go-sdk v0.3.8-0.20230523154623-2a61743fccec
 
 require (
-	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
-	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
-	github.com/ethereum/go-ethereum v1.10.26 // indirect
 	github.com/ipfs/go-cid v0.0.7 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.12 // indirect
